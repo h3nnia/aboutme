@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier Prime', monospace;
+    text-align: center;
+}
+
+.page-frame {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('https://d2w9rnfcy7mm78.cloudfront.net/18450837/original_8a41477ff10f7ca3524d62585e7c8dc3.gif?1665492616?bc=0');
+    background-size: cover;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 0.5em;
+}
+button {
+    background-color: transparent;
+    padding: 0.25em;
+    border-radius: 5px;
+
+}
